@@ -10,8 +10,29 @@ h1 {
     margin-bottom: 20px;
 }
 
+h3 {
+    margin-bottom: 15px;
+}
+
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
+    margin-bottom: 30px;
+    width: 80%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+div {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.home-link {
+    text-align: center;
+    list-style-type: none;
 }
