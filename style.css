@@ -1,14 +1,8 @@
 * {
-    font-family: Verdana, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     line-height: 1.5;
-}
-
-h1 {
-    text-align: center;
-    font-size: 48px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    box-sizing: border-box;
 }
 
 h3 {
@@ -19,27 +13,42 @@ a {
     text-decoration: none;
 }
 
+.title {
+    text-align: center;
+    font-size: 48px;
+    margin: 20px auto 0;
+}
+
+.under-title {
+    text-align: center;
+    color: rgb(55, 124, 166);
+}
+
 .header-img,
 .recipe-list {
     display: block;
-    margin: auto;
-    margin-bottom: 30px;
-    width: 80%;
+    margin: 0 auto;
+    width: 90%;
     height: auto;
+    border-radius: 5px;
 }
 
-.recipe-list {
-    width: 60%;
-}
+/* .flex-container {
+    display: flex;
+} */
 
-.ingredients-preperations {
+.in-prep {
     width: 80%;
-    margin: auto;
-    margin-bottom: 30px;
+    margin: 30px auto;
 }
 
 .home-link {
     text-align: center;
     list-style-type: none;
     margin-bottom: 40px;
+}
+
+/* index.html */
+.recipe-list {
+    width: 60%;
 }
